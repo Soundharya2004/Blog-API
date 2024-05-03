@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run backend",
+    "build": "react-scripts build",
     "start": "nodemon index.js"
   },
   "author": "",
