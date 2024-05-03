@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
   database: process.env.DB_DBNAME,
   port: process.env.DB_PORT || 3306 // Default port 3306 if not specified
 });
-
+ 
 // Connect to the database
 connection.connect((err) => {
   if (err) {
