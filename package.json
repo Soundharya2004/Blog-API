@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "test": "npm run backend",
     "start": "nodemon index.js"
   },
